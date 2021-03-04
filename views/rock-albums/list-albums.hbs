@@ -1,0 +1,20 @@
+<h1> List of Albums </h1>
+
+<div>
+    {{#each album}}
+
+    <div class="album-details">
+    <p>{{this.artist}}</p>
+    <p>{{this.title}}</p>
+    <p>{{this.year}}</p>
+    <p>{{this.genre}}</p>
+    <a href="/albums/update/{{this.id}}">Update Album</a>
+    <br>
+    <form action="/albums/delete/{{this.id}}" method="POST">
+    <br>
+    <button>Delete Album</button>
+    </form>
+
+    </div>
+    {{/each}}
+</div>

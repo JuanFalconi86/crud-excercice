@@ -1,0 +1,31 @@
+<h1> UPDATE ALBUM</h1>
+
+<form action="/albums/update/{{album._id}}" method="POST">
+    <br>
+    <label for="artist">Artist</label>
+    <br>
+    <input type="text" name="artist" id="artist" value="{{album.artist}}">
+    <br>
+
+    <br>
+    <label for="title">Title</label>
+    <br>
+    <input type="text" name="title" id="title" value="{{album.title}}">
+    <br>
+
+    <br>
+    <label for="year">Year</label>
+    <br>
+    <input type="number" name="year" id="year" value="{{album.year}}">
+
+    <br>
+    <br>
+    <label for="genre">Genre</label>
+    <br>
+    <input type="text" name="genre" id="genre" value="{{album.genre}}">
+    <br>
+
+    <br>
+    <button>Update Album</button>
+
+</form>

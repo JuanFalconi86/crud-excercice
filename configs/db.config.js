@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://localhost/crud_excercice", {
+  .connect("mongodb://localhost/crud_excercice_rock_music", {
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,

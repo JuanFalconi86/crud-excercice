@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+.album-details {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
